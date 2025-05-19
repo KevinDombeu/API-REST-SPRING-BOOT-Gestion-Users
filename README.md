@@ -43,3 +43,5 @@ mvn spring-boot:run
 curl -X POST http://localhost:3325/users \
 	-H "Content-Type: application/json" \
 	-d '{"nom": "Alice", "email": "alice@example.com", "age": 25}'
+# Test avec swagger - OpenAPI
+http://localhost:3325/swagger-ui.html
